@@ -3,5 +3,5 @@
 
 
 import pandas as pd
-df = pd.read_json('./DIRETÓRIO_DE_DADOS/ARQUIVO.json', orient='records')
+df = pd.read_json('preparacao-dados\DIRETÓRIO_DE_DADOS\ARQUIVO.json', orient='records')
 print(df)

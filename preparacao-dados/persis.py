@@ -5,7 +5,7 @@
 import pandas as pd
 json_array=[ {'a':1,'b':2}, {'a':3,'b':4}, {'a':5,'b':6} ] 
 df = pd.DataFrame(json_array)
-df.to_json('./DIRETÓRIO_DE_DADOS\ARQUIVO.json', orient='records')
+df.to_json('preparacao-dados\DIRETÓRIO_DE_DADOS\ARQUIVO.json', orient='records')
 
 # Existem formas ainda mais extravagantes de se ler dados com o Pandas como o read_sql, que lê os dados a partir de conexões ODBC ou JDBC com bancos de dados compatíveis, sendo que cada tipo de banco tem suas especificidades
 # Ainda há a possibilidade de leitura por URL, em que, no lugar de passarmos o caminho de diretórios local da máquina, passamos o caminho do arquivo no sistema on-line, que será transferido para o projeto Python seguindo um protocolo FTP.
