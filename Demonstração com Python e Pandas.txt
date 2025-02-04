@@ -1,2 +1,0 @@
-Existem várias formas de incorporarmos os dados nos nossos scripts Python
-Podemos fazer a coleta dos dados a partir de bibliotecas, que fazem varreduras em sites, ou em dados semiestruturados como notícias e tweets por meio do BeautifulSoup e Scrapy.
